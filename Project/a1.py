@@ -1,3 +1,5 @@
-a= 10
-b=13
-print(a+b)
+import numpy as np
+a=np.identity(5)
+deter=np.linalg.det(a)
+
+print(deter)
